@@ -36,6 +36,10 @@ def predict(img_path):
 
   x_test = np.expand_dims(x_test, axis=3)
   v_acc,v_loss=model.evaluate(x_test,y_test)
+  
+  
+  model.save("captcha.model")
+  new_model=tf.keras.models.load_model("captcha.model")
 
 
   import os
