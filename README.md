@@ -1,1 +1,3 @@
-Here i have submitted 2 different codes in 2 different folders named submission.py(main) and submission1.py(other using ML)
+Here i have submitted 2 different codes named submission.py(main) and submission1.py(other using ML)
+first code:submission.py and its requirements.txt and characters.txt
+second code:submission1.py and its requirements1.txt and characters1.txt
